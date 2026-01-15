@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk:*)",
+      "Bash(aws s3 --endpoint url https://weka-aus.beaker.org:9000 ls:*)",
+      "Bash(beaker:*)",
+      "Bash(chmod +x:*)",
+      "Bash(curl:*)",
+      "Bash(docker:*)",
+      "Bash(gh:*)",
+      "Bash(git:*)",
+      "Bash(make:*)",
+      "Bash(rg:*)",
+      "Bash(shellcheck:*)",
+      "Bash(uv:*)",
+      "Bash(uv run pytest:*)",
+      "Bash(uv run ruff:*)",
+      "Read(~/.zshrc)",
+      "WebFetch"
+    ]
+  }
+}
