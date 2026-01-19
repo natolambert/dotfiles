@@ -2,6 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(awk:*)",
+      "Bash(export:*)",
+      "Bash(ls:*)",
       "Bash(aws s3 --endpoint url https://weka-aus.beaker.org:9000 ls:*)",
       "Bash(beaker:*)",
       "Bash(chmod +x:*)",
